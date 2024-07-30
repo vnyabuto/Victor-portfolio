@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Services.css"
-import {services} from '../../sources'
 import { Link } from 'react-scroll'
+import { services } from '../../sources'
+import "./Services.css"
 
 
 const Services = () => {
@@ -25,10 +25,10 @@ const Services = () => {
                 </div>
                 <div className="details">
                   <h3 className="name gradient-text">{service.name}</h3>
-                  <p className="muted">{service.description}</p>
+                  <p className="muted" style={{ textAlign: 'left' }}>{service.description}</p>
                 </div>
                 <div className="flex buttons-wrapper">
-                  <button className='btn'>Read More</button>
+                  {/*<button className='btn'>Read More</button>*/}
                   <Link to='contact' smooth={true} className='btn'>Get started</Link>
                 </div>
               </div>

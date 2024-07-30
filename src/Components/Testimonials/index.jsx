@@ -45,7 +45,7 @@ const Testimonials = () => {
                   </div>
                   <div className="details">
                     <h3 className="name">{list.name}</h3>
-                    <small className="muted">CEO of LivinAI</small>
+                    <small className="muted">{list.role}</small>
                   </div>
                   </div>
                   <p className="p muted content">{list.review}</p>

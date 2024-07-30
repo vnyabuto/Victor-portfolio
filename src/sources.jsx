@@ -12,7 +12,7 @@ import { FaInstagram, FaXTwitter,FaLinkedin,FaLaptopCode} from "react-icons/fa6"
 import { FaFacebookSquare,FaPaintBrush } from "react-icons/fa";
 import { TfiWrite } from 'react-icons/tfi'
 import {DiReact} from "react-icons/di";
-import {FaNodeJs} from "react-icons/fa";
+import {FaNodeJs, FaMobileAlt, FaCode, FaCogs} from "react-icons/fa";
 import {SiExpress,SiMongodb} from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -50,28 +50,36 @@ export const whyChooseMe = [
 ]
 export const services = [
   {
-    name:"UI/UX Design",
-    icon:<FaPaintBrush/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    name: "Full Stack Development",
+    icon: <FaLaptopCode />,
+    description: `Providing end-to-end solutions, I specialize in building scalable and robust applications 
+    using modern technologies for both front-end and back-end development.`,
   },
   {
-    name:"Web Development",
-    icon:<FaLaptopCode/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    name: "UI/UX Design",
+    icon: <FaPaintBrush />,
+    description: `Creating intuitive and engaging user interfaces, I focus on delivering exceptional user experiences 
+    that are both visually appealing and easy to navigate.`,
   },
   {
-    name:"Content Creation",
-    icon:<TfiWrite/>,
-    description:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione 
-    voluptatum earum quam tempore, repellat aut vero ut eum, provident accusamus recusandae 
-    eligendi, adipisci sequi reiciendis quisquam? Sapiente optio rerum sequi!`,
+    name: "Code and IT Consultancy",
+    icon: <FaCogs />,
+    description: `Offering expert advice and strategic solutions, I help businesses optimize their IT infrastructure 
+    and improve their coding practices for better performance and security.`,
   },
-  
-]
+  {
+    name: "Graphics Design",
+    icon: <FaPaintBrush />,
+    description: `Crafting visually compelling designs, I bring ideas to life through creative graphic design services 
+    that enhance branding and marketing efforts.`,
+  },
+  {
+    name: "Mobile Development",
+    icon: <FaMobileAlt />,
+    description: `Developing high-quality mobile applications, I ensure seamless functionality and engaging user experiences 
+    across various mobile platforms.`,
+  },
+];
 
 
 export const skills = [
@@ -134,8 +142,20 @@ export const skills = [
           },
           {
               skill:"MongoDB",
-              level:"Intermediate",
+              level:"Experienced",
           },
+          {
+            skill:"PostgreSQL",
+            level:"Intermediate",
+        },
+        {
+          skill:"Java",
+          level:"Intermediate",
+      },
+      {
+        skill:"C#",
+        level:"Intermediate",
+    },
           {
               skill:"PHP",
               level:"Experienced",
@@ -323,42 +343,33 @@ export const projects = [
 export const clients = [
   {
     image:client1,
-    name:'Samuel Eze',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-           veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud 
-           exercitation ullamco laboris`
+    name:'Victor Nyabuto',
+    role: 'CEO of LivinAI',
+    review:`Meka's full stack development skills are top-notch. He provided us with a robust, user-friendly application that greatly enhanced our business operations. His ability to handle both front-end and back-end development ensured a seamless and efficient project delivery.`
   },
   {
     image:client2,
-    name:'Richael Linda',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    name:'Alice Johnson',
+    role: 'CTO of TechCorp Ltd',
+    review:` Meka's IT consultancy services were invaluable. His expert advice and practical solutions significantly improved our system efficiency and security. His strategic approach and technical knowledge have been a game-changer for our organization.`
   },
   {
     image:client3,
-    name:'Gloria Chiwendu',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-           veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud 
-           exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    name:'John Phil',
+    role: 'Product Manager at Web Solutions',
+    review:` As a web developer, Meka is exceptional. He created a stunning, responsive website that perfectly aligns with our brand and engages our audience. His attention to detail and creativity truly set him apart.`
   },
   {
     image:client4,
-    name:'Precious Stone',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    name:'Simon Ongachi',
+    role: 'Founder of Lotty Fashions',
+    review:` Meka’s comprehensive full stack development expertise resulted in a high-performance application that streamlined our workflow and boosted productivity. His dedication to quality and timely delivery made the entire process smooth and hassle-free.`
   },
   {
     image:client5,
-    name:'Ndubisi John',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    name:'Bonface Mutua',
+    role: 'CEO of Nectar Series Ltd',
+    review:` Meka’s IT consultancy transformed our tech infrastructure. His strategic insights and technical guidance were key to our successful digital transformation. We now have a more secure, efficient, and scalable system thanks to his expertise.`
   },
 
 ];
@@ -398,9 +409,9 @@ export const socialHandles = [
       link:"",
     },
     {
-      name:"Youtube",
+      name:"LinkedIn",
       icon:<FaLinkedin/>,
-      link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+      link:"",
     },
 ];
 
