@@ -21,7 +21,7 @@ const Contact = () => {
               <span className="gradient-text">Join forces with me!</span>
             </h1>
             <p className="muted">
-              I build with precision and passion, creating software projects that stand out. It's as straightforward as that!
+              I build with precision and passion, creating software projects and predictive models that stand out. It's as straightforward as that!
             </p>
           </div>
           <div className="middle">
