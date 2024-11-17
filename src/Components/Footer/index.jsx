@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
       <dic className="flex-center copyright" data-aos="fade-left" >
         <h4>Copyright &copy; All rights reserved -| 2024</h4>
-        <p className="muted">Built with love by Simon Meka A.K.A Kems</p>
+        <p className="muted">Built with love by Victor Nyabuto</p>
       </dic>
     </footer>
   )

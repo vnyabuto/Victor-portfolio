@@ -1,0 +1,20 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A personal portfolio built using React",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://<Victor-Nyabuto>.github.io/<Victor-portfolio>",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
