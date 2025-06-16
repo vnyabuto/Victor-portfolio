@@ -17,6 +17,7 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
+import { FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 export const tabs = [
     { name: "About Me", id: 'about' },
@@ -384,6 +385,20 @@ export const contactOptions = [
         value: "vnyabuto00@gmail.com", // Corrected from double '@' to single
         icon: <MdOutlineAlternateEmail />,
     },
+    {
+        title: "Email",
+        value: "vnyabuto00@gmail.com",
+        icon: <FaEnvelope size={30} color="#0072c6" />,
+        link: "mailto:vnyabuto00@gmail.com",
+    },
+
+    {
+        title: "WhatsApp",
+        value: "+254 704 076311",
+        icon: <FaWhatsapp size={30} color="#25D366" />,
+        link: "https://wa.me/254704076311",
+    },
+
     {
         title: "Phone Number",
         value: "+254 704076311 / +254 707651961",
