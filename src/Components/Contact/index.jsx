@@ -1,17 +1,37 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import { contactOptions } from '../../sources';
 
 const Contact = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // prevent default reload
-    setFormSubmitted(true); // show contact options
+    e.preventDefault();
+    setFormSubmitted(true);
   };
 
   return (
     <section id="contact" data-aos="fade-zoom-in">
       <div className="wrapper">
+        {/* LEFT SIDE — Contact Options */}
+        <div className="contact-options">
+          {contactOptions.map((option, index) => (
+            <a
+              href={option.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-center option"
+              data-aos="fade-right"
+              key={index}
+            >
+              <div className="flex-center icon-wrapper">{option.icon}</div>
+              <h4 className="muted">{option.title}</h4>
+              <h3 className="value">{option.value}</h3>
+            </a>
+          ))}
+        </div>
+
+        {/* RIGHT SIDE — Form / Contact Buttons */}
         <div className="contact-form" data-aos="fade-left">
           <div className="top">
             <h1 className="title">

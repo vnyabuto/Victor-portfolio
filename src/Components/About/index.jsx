@@ -10,14 +10,17 @@ const About = () => {
           <span className="gradient-text">About Me</span>
         </h1>
         <h4 className="sub-title muted" data-aos="fade-left">
-  I am a dedicated Data Scientist and Machine Learning Specialist with a strong background in Fullstack Software Development. My expertise encompasses advanced data science techniques, machine learning algorithms, and predictive modeling, complemented by my proficiency in the MERN stack—MongoDB, Express.js, React, and Node.js.
+  I'm a versatile Software Engineer and Data Scientist with a passion for building impactful systems that bridge intelligent automation with practical usability. With a strong background in full-stack development using technologies like React, Django, Node.js, and MongoDB, I specialize in creating scalable web applications backed by smart, data-driven logic.
   <br /><br />
-  My passion lies in creating dynamic and responsive web applications and data-driven solutions. I am adept at using technologies such as Python, scikit-learn, TensorFlow, and OpenCV for developing and deploying machine learning models. Additionally, I am skilled in Java, Spring Boot, MySQL, C++, C#, and PHP, with experience in cloud platforms like AWS and Azure.
-  <br />
-  I thrive in collaborative environments and utilize Agile methodologies to deliver high-quality software. My commitment to continuous learning and innovation drives me to stay abreast of emerging technologies and create impactful, scalable solutions. 
+  My work often blends traditional software engineering with machine learning. From AI-powered financial predictors and Sentiment analyzers to real-time log anomaly detectors and gesture-based apps, I build solutions grounded in real-world use cases. I leverage tools like Python, TensorFlow, scikit-learn, and Streamlit — always pushing for meaningful insights and clean delivery.
   <br /><br />
-  Beyond my technical expertise, I am a seasoned karate coach with a black belt. I have successfully led teams like Karatina University to victory in tournaments from regionals to nationals, demonstrating leadership and discipline. Let’s connect and build something transformative together.
+  I’m also deeply committed to project excellence, GitHub-ready code, and end-to-end deployment — whether it's on Hugging Face, Netlify, or custom cloud solutions. With a strong understanding of databases (MySQL, MongoDB, PostgreSQL), RESTful APIs, and user-centered design, I focus on reliability, usability, and intelligent interaction.
+  <br /><br />
+  Beyond tech, I’m a certified black belt karate coach who’s led university teams like Karatina to national victories. That same discipline and leadership drive my work in tech — I stay focused, adaptive, and results-oriented.
+  <br /><br />
+  Let’s connect and build the future — one smart solution at a time.
 </h4>
+
 
       </div>
       <div className="group">
