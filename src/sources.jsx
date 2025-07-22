@@ -549,12 +549,4 @@ export const footer = [
             { name: "Testimonials", id: 'testimonials' },
         ],
     },
-    {
-        title: "Others",
-        routes: [
-            { name: "Privacy Policy" },
-            { name: "Terms and Conditions" },
-            { name: "Cookie Policy" },
-        ],
-    },
 ];
