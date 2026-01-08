@@ -1,0 +1,150 @@
+.navbar {
+    padding: 10px 20px;
+    align-items: stretch;
+    justify-content: space-between;
+    border-bottom: .5px solid var(--border-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: var(--bg-primary);
+}
+
+.navbar .tabs-group .tab {
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: var(--muted-foreground);
+    transition: var(--transition);
+    cursor: pointer;
+    border: solid .5px transparent;
+    margin-right: 15px; /* Increase space between tabs */
+}
+
+.navbar .tabs-group .tab:hover {
+    color: var(--foreground);
+    background: var(--bg-accent);
+    border-color: var(--border-primary);
+}
+
+.navbar .tabs-group .tab.active {
+    color: var(--foreground);
+    border-color: var(--border-primary);
+    background: var(--bg-accent);
+}
+
+.navbar .buttons {
+    gap: 20px;
+}
+
+.navbar a { /* Assuming the elements are links */
+    color: var(--muted-foreground);
+    text-decoration: none;
+    transition: var(--transition);
+    cursor: pointer; /* Ensure pointer cursor */
+    margin-right: 15px; /* Increase space between items */
+}
+
+.navbar a:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.navbar a:hover {
+    color: var(--foreground);
+    cursor: pointer; /* Ensure pointer cursor */
+}
+
+.navbar .menu-btn,
+.navbar .cancel-btn {
+    display: none;
+}
+
+.navbar .cancel-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(1,1,1,0.5);
+    z-index: 110;
+    width: 100%;
+    height: 100%;
+    min-height: 10vh;
+}
+
+@media (max-width:1210px){
+    .navbar .handles-container{
+        display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+    .navbar .services-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 930px) {
+    .navbar .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        max-width: 320px;
+        min-height: 100vh;
+        z-index: 150;
+        background: var(--bg-primary);
+        flex-direction: column;
+        padding: 20px;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding-top: 50px;
+        transition: var(--transition);
+    }
+
+    .navbar .sidebar.visible {
+        left: 0;
+    }
+    
+    .navbar .menu-btn,
+    .navbar .cancel-btn {
+        display: flex;
+    }
+}
+
+@media (max-width:400px){
+    .navbar .contact-btn{
+        display: none;
+    }
+}
+
+/* Updated .contact-btn styling */
+.btn.primary.contact-btn {
+    font-size: 16px; /* Match the font size of the Services button */
+    color: #FFFFFF; /* Set text color to white for better contrast */
+    background-color: #28a745; /* Set background color to green */
+    padding: 10px 20px; /* Adjust padding to match the Services button */
+    border-radius: 6px; /* Round the corners for a modern look */
+    font-weight: normal; /* Make the text normal weight */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for the Hire Me button */
+.btn.primary.contact-btn:hover {
+    background-color: #218838; /* Darken the background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Active effect for the Hire Me button */
+.btn.primary.contact-btn:active {
+    background-color: #1e7e34; /* Further darken the background color when active */
+    transform: scale(1); /* Reset the scale when active */
+}
