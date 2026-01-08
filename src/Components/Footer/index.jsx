@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
       <div className="flex-center copyright" data-aos="fade-left">
-        <h4>Copyright &copy; All rights reserved -| 2025</h4>
+        <h4>Copyright &copy; All rights reserved -| 2026</h4>
         <p className="muted">Built with love by Victor Nyabuto</p>
       </div>
     </footer>
