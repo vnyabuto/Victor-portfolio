@@ -3,19 +3,20 @@ import client2 from "./assets/client-2.jpeg";
 import client3 from "./assets/client-3.jpeg";
 import client4 from "./assets/client-4.jpeg";
 import client5 from "./assets/client-5.jpeg";
+
 import { IoMdAnalytics } from "react-icons/io";
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineSupportAgent, MdOutlineAlternateEmail } from "react-icons/md";
 import { RiExchange2Fill } from "react-icons/ri";
 import { FaInstagram, FaXTwitter, FaLinkedin, FaLaptopCode } from "react-icons/fa6";
-import { FaFacebookSquare, FaPaintBrush } from "react-icons/fa";
+import { FaFacebookSquare, FaPaintBrush, FaCogs, FaNodeJs, FaMobileAlt } from "react-icons/fa";
 import { TfiWrite } from 'react-icons/tfi';
 import { DiReact } from "react-icons/di";
-import { FaNodeJs, FaMobileAlt, FaCogs } from "react-icons/fa";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiAdobexd } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
+
 import { SiAdobexd } from "react-icons/si";
 
 export const tabs = [

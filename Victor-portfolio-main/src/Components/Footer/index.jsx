@@ -1,9 +1,8 @@
-import React from 'react'
-import "./Footer.css"
+import { Link } from 'react-scroll'
 import Logo from '../../Commons/Logo'
 import SocialHandles from '../../Commons/SocialHandles'
 import { footer } from '../../sources'
-import { Link } from 'react-scroll'
+import "./Footer.css"
 
 const Footer = () => {
   return (

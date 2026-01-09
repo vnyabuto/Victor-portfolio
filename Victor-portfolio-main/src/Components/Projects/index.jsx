@@ -1,8 +1,8 @@
-import React, {useEffect, useState}from 'react'
-import "./Projects.css"
-import {projects} from '../../sources'
+import { useEffect, useState } from 'react'
+import { projects } from '../../sources'
 import ProjectCard from './ProjectCard'
 import ProjectNavigation from './ProjectNavigation'
+import "./Projects.css"
 
 const Projects = () => {
   const [activeProjects,setActiveProjects] = useState(projects);

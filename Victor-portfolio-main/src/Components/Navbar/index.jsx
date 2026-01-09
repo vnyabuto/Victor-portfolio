@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { FaTimes } from 'react-icons/fa';
+import { HiMenu } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import Logo from '../../Commons/Logo';
+import SocialHandles from '../../Commons/SocialHandles';
 import { tabs } from '../../sources';
 import './Navbar.css';
-import Logo from '../../Commons/Logo';
-import { HiMenu } from 'react-icons/hi';
-import { FaTimes } from 'react-icons/fa';
-import SocialHandles from '../../Commons/SocialHandles';
 
 const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);

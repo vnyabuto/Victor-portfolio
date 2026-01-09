@@ -1,6 +1,6 @@
-import React, {useState, useRef, useEffect} from 'react'
-import "./ProjectNavigation.css"
 import Aos from 'aos';
+import { useEffect, useRef, useState } from 'react';
+import "./ProjectNavigation.css";
 
 const ProjectNavigation = ({
     tabs,

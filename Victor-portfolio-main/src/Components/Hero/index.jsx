@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 import me from '../../assets/me.jpeg';
 import Achievement from '../../Commons/Achievement';

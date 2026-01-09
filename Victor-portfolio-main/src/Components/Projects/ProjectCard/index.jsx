@@ -1,6 +1,5 @@
-import React from 'react'
-import "./ProjectCard.css"
 import { AiOutlineShareAlt } from 'react-icons/ai'
+import "./ProjectCard.css"
 
 const ProjectCard = ({
     title,
