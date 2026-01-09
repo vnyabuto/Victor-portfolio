@@ -10,6 +10,7 @@ const About = () => {
           <span className="gradient-text">About Me</span>
         </h1>
         <h4 className="sub-title muted" data-aos="fade-left">
+<<<<<<< HEAD
   I’m a dedicated Data Scientist and Machine Learning Engineer with a strong foundation in mathematics, statistics, and software systems. My expertise lies in building intelligent, data-driven solutions — from predictive modeling and anomaly detection to macroeconomic forecasting and gesture-based applications.
   <br /><br />
   I specialize in Python and the broader data science stack (Pandas, scikit-learn, TensorFlow, OpenCV, and Prophet), and I've delivered real-world systems like BitPredictor (crypto price forecasting), Log Anomaly Detectors, and Reddit Sentiment Trackers. I also build web-based dashboards with tools like Streamlit, Flask, and React to make these systems accessible and impactful.
@@ -23,6 +24,17 @@ const About = () => {
 
 
 
+=======
+  I am a dedicated Data Scientist and Machine Learning Specialist with a strong background in Fullstack Software Development. My expertise encompasses advanced data science techniques, machine learning algorithms, and predictive modeling, complemented by my proficiency in the MERN stack—MongoDB, Express.js, React, and Node.js.
+  <br /><br />
+  My passion lies in creating dynamic and responsive web applications and data-driven solutions. I am adept at using technologies such as Python, scikit-learn, TensorFlow, and OpenCV for developing and deploying machine learning models. Additionally, I am skilled in Java, Spring Boot, MySQL, C++, C#, and PHP, with experience in cloud platforms like AWS and Azure.
+  <br />
+  I thrive in collaborative environments and utilize Agile methodologies to deliver high-quality software. My commitment to continuous learning and innovation drives me to stay abreast of emerging technologies and create impactful, scalable solutions. 
+  <br /><br />
+  Beyond my technical expertise, I am a seasoned karate coach with a black belt. I have successfully led teams like Karatina University to victory in tournaments from regionals to nationals, demonstrating leadership and discipline. Let’s connect and build something transformative together.
+</h4>
+
+>>>>>>> 5b3a05d19eec8cf830028522b85aed9467d838e6
       </div>
       <div className="group">
         {

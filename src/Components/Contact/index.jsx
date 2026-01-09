@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
+=======
+import React from 'react';
+>>>>>>> 5b3a05d19eec8cf830028522b85aed9467d838e6
 import './Contact.css';
 import { contactOptions } from '../../sources';
 
 const Contact = () => {
+<<<<<<< HEAD
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
@@ -33,6 +38,21 @@ const Contact = () => {
 
         {/* RIGHT SIDE — Form / Contact Buttons */}
         <div className="contact-form" data-aos="fade-left">
+=======
+  return (
+    <section id="contact" data-aos="fade-zoom-in">
+      <div className="wrapper">
+        <div className="contact-options">
+          {contactOptions.map((option, index) => (
+            <div className="flex-center option" data-aos="fade-right" key={index}>
+              <div className="flex-center icon-wrapper">{option.icon}</div>
+              <h4 className="muted">{option.title}</h4>
+              <h3 className="value">{option.value}</h3>
+            </div>
+          ))}
+        </div>
+        <div className="contact-form" data-aos="fade-left" >
+>>>>>>> 5b3a05d19eec8cf830028522b85aed9467d838e6
           <div className="top">
             <h1 className="title">
               <span className="gradient-text">Join forces with me!</span>
@@ -41,6 +61,7 @@ const Contact = () => {
               I build with precision and passion, creating software projects and predictive models that stand out. It's as straightforward as that!
             </p>
           </div>
+<<<<<<< HEAD
 
           {!formSubmitted ? (
             <form className="middle" onSubmit={handleSubmit}>
@@ -79,6 +100,22 @@ const Contact = () => {
               </a>
             </div>
           )}
+=======
+          <div className="middle">
+            <div className="flex-row">
+              <input type="text" placeholder="First name" name="firstname" className="control" />
+              <input type="text" placeholder="Last name" name="lastname" className="control" />
+            </div>
+            <div className="flex-row">
+              <input type="email" placeholder="Email address" name="email" className="control" />
+              <input type="tel" placeholder="Phone number" name="phone" className="control" />
+            </div>
+            <textarea name="message" cols={30} rows={10} placeholder="Message" className="control"></textarea>
+          </div>
+          <div className="flex-center bottom">
+            <button className="btn primary">Send Now</button>
+          </div>
+>>>>>>> 5b3a05d19eec8cf830028522b85aed9467d838e6
         </div>
       </div>
     </section>

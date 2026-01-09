@@ -1,6 +1,7 @@
 {
   "name": "my-node-app",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,22 @@
   "description": "",
   "dependencies": {
     "gh-pages": "^6.3.0"
+=======
+  "description": "A personal portfolio built using React",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://<Victor-Nyabuto>.github.io/<Victor-portfolio>",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+>>>>>>> 5b3a05d19eec8cf830028522b85aed9467d838e6
   }
 }
